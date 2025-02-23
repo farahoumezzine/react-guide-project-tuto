@@ -1,0 +1,83 @@
+.main{
+    background-color: pink;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+
+.counter-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.button-group button {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: white;
+    color: pink;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #ff69b4;
+    color: white;
+}
+
+.button-group span {
+    font-size: 2rem;
+    min-width: 3rem;
+}
+
+.main-header {
+    background-color: #ff69b4;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.main-header nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+
+.main-header li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.main-header li a:hover {
+    background-color: white;
+    color: #ff69b4;
+}
