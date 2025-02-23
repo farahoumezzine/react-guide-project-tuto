@@ -1,5 +1,6 @@
 import react from "react";
 import { useNavigate } from "react-router-dom";
+import Button from '@mui/material/Button';
 
 function Home(){
     const navigate= useNavigate()
@@ -9,7 +10,7 @@ function Home(){
     return(
         <>
         <h1>Home page</h1>
-        <button onClick={handleclick}>click Me to go to about !</button>
+        <Button variant="contained" onClick={handleclick}>click Me to go to about !</Button>
         </>
 
     );
